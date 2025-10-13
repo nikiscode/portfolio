@@ -1,26 +1,29 @@
 # AI-Powered Portfolio Website
 
-A full-featured, interactive portfolio website that mimics the Google Gemini AI chat interface. Users can chat with an AI assistant that responds using the student's portfolio data, showcasing projects, skills, achievements, and more.
+A comprehensive, interactive portfolio website featuring AI chat capabilities, creative showcase, and dynamic GitHub integration. Built for Google Student Ambassador applications with a focus on authentic learning journey representation.
 
 ## 🚀 Features
 
-### 🤖 AI Chat Interface
+### 🤖 AI Chat Interface (Coming Soon)
 - **Google Gemini AI Integration**: Powered by Google's Gemini API for intelligent responses
 - **Dynamic Responses**: AI responds contextually based on portfolio data
 - **Typing Animations**: Realistic typing indicators and smooth animations
 - **Conversational Flow**: Natural chat experience with follow-up questions
+- **Status**: Currently showing "Coming Soon" page with beautiful animations
 
-### 🎨 UI/UX Design
-- **Gemini AI-Style Interface**: Dark theme matching Google's Gemini design
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Smooth Animations**: Framer Motion powered transitions and micro-interactions
-- **Interactive Cards**: Hover effects and dynamic content rendering
+### 🎨 Creative Showcase
+- **Animated Hero Section**: Google-branded hero with rotating stats
+- **Interactive Timeline**: Achievement and project timeline with filters
+- **3D Project Showcase**: Immersive project carousel with hover effects
+- **Live Stats Dashboard**: Animated counters and metrics
+- **Interactive Skill Radar**: Canvas-based skill visualization
+- **Google Ambassador Highlights**: Dedicated section for ambassador applications
 
 ### 📊 Portfolio Sections
-- **About Me**: Personal summary, interests, and goals
-- **Projects**: 5 detailed projects with tech stacks, features, and impact
-- **Achievements**: Hackathons, academic honors, leadership roles
-- **Skills**: Categorized technical skills with visual indicators
+- **About Me**: Personal summary, interests, and academic goals
+- **Projects**: 7 detailed projects with tech stacks, features, and GitHub links
+- **Achievements**: 6 achievements including hackathons, certifications, and academic honors
+- **Skills**: Categorized technical skills with focus learner levels (under 50%)
 - **Experience**: Professional experience and internships
 - **Education**: Academic background and coursework
 
@@ -30,33 +33,54 @@ A full-featured, interactive portfolio website that mimics the Google Gemini AI 
 - **TailwindCSS**: Utility-first CSS framework for rapid styling
 - **Framer Motion**: Advanced animations and transitions
 - **Google Gemini API**: AI-powered conversational responses
+- **GitHub Integration**: Dynamic project data fetching
+- **Responsive Design**: Optimized for all devices
+- **Smooth Scrolling**: Enhanced user experience
 
 ## 📁 Project Structure
 
 ```
 portfolio/
 ├── app/
-│   ├── globals.css          # Global styles and TailwindCSS
-│   ├── layout.tsx           # Root layout component
-│   └── page.tsx             # Main page component
+│   ├── api/
+│   │   ├── chat/route.ts        # AI chat API endpoint
+│   │   ├── portfolio/route.ts  # Portfolio CRUD operations
+│   │   └── github/route.ts     # GitHub integration
+│   ├── admin/page.tsx          # Admin panel for data management
+│   ├── chat/page.tsx           # Chat interface (Coming Soon)
+│   ├── portfolio/page.tsx      # Portfolio view page
+│   ├── showcase/page.tsx       # Creative showcase page
+│   ├── globals.css             # Global styles and TailwindCSS
+│   ├── layout.tsx              # Root layout component
+│   └── page.tsx               # Main landing page
 ├── components/
-│   ├── AchievementCard.tsx  # Achievement display component
-│   ├── ChatInput.tsx        # Chat input with auto-resize
-│   ├── ChatInterface.tsx   # Main chat interface
-│   ├── MessageBubble.tsx    # Individual message component
-│   ├── ProjectCard.tsx     # Project display component
-│   ├── SkillsSection.tsx   # Skills categorization
-│   └── WelcomeMessage.tsx  # Landing page component
+│   ├── AchievementCard.tsx     # Achievement display with links
+│   ├── AchievementTimeline.tsx # Timeline component
+│   ├── AdminPanel.tsx          # Data management interface
+│   ├── AnimatedHero.tsx        # Hero section with animations
+│   ├── ChatInterface.tsx       # Main chat interface
+│   ├── ChatSidebar.tsx         # Chat history sidebar
+│   ├── CreativeShowcase.tsx    # Full-screen showcase
+│   ├── GoogleAmbassadorHighlights.tsx # Ambassador application section
+│   ├── InteractiveSkillRadar.tsx # Skill radar visualization
+│   ├── LandingPage.tsx         # Main portfolio page
+│   ├── LiveStatsDashboard.tsx # Animated stats dashboard
+│   ├── Project3DShowcase.tsx  # 3D project carousel
+│   ├── ProjectCard.tsx        # Project display component
+│   ├── SkillVisualizer.tsx     # Skills visualization
+│   └── WelcomeMessage.tsx      # Welcome component
 ├── data/
-│   └── portfolio.json       # Portfolio data structure
+│   └── portfolio.json          # Portfolio data structure
 ├── lib/
-│   └── gemini.ts           # Google Gemini API service
+│   └── gemini.ts              # Google Gemini API service
+├── store/
+│   └── chatStore.ts           # Zustand state management
 ├── types/
-│   └── index.ts            # TypeScript type definitions
-├── package.json            # Dependencies and scripts
-├── tailwind.config.js      # TailwindCSS configuration
-├── tsconfig.json          # TypeScript configuration
-└── README.md              # This file
+│   └── index.ts               # TypeScript type definitions
+├── package.json               # Dependencies and scripts
+├── tailwind.config.js         # TailwindCSS configuration
+├── tsconfig.json             # TypeScript configuration
+└── README.md                 # This file
 ```
 
 ## 🚀 Quick Start
@@ -70,7 +94,7 @@ portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/nikiscode/portfolio
    cd portfolio
    ```
 
@@ -94,102 +118,41 @@ portfolio/
    - Create a new API key
    - Copy the key to your `.env.local` file
 
-5. **Test your API key** (Optional but recommended)
-   ```bash
-   npm run test-api
-   ```
-
-6. **Run the development server**
+5. **Run the development server**
    ```bash
    npm run dev
    ```
 
-7. **Open your browser**
+6. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 🔧 Troubleshooting
-
-If you encounter issues, check the [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) guide for common solutions.
-
-### Quick Fixes:
-- **API Key Issues**: Make sure your key is in `.env.local` and starts with `AIzaSy`
-- **Network Errors**: Check your internet connection
-- **Rate Limiting**: Wait a few minutes and try again
-- **Content Filter**: Rephrase your question
-
-### Test Your Setup:
-```bash
-# Test if your API key works
-npm run test-api
-
-# Check for TypeScript errors
-npm run type-check
-
-# Verify the build works
-npm run build
-```
 
 ## 🎯 Usage
 
-### Chat Interface
-- **Ask Questions**: Type natural language questions about the portfolio
-- **Quick Actions**: Use suggested prompts for common queries
-- **Dynamic Content**: AI responses trigger relevant portfolio sections
-- **Interactive Elements**: Click on project links, view achievements, explore skills
+### Main Portfolio (`/`)
+- **Clean Professional Profile**: AI/ML Student | Full-Stack Developer
+- **About Section**: Academic focus and learning goals
+- **Projects**: 7 technical projects with GitHub links
+- **Achievements**: 6 achievements with LinkedIn/GitHub links
+- **Skills**: Focus learner levels (under 50% proficiency)
+- **Experience**: Professional and academic experience
+- **Education**: Amity University, B.Tech AI/ML
 
-### Example Queries
-- "Show me your projects"
-- "Tell me about your achievements"
-- "What are your technical skills?"
-- "Tell me about your AI study assistant project"
-- "What programming languages do you know?"
-- "Tell me about your Google Summer of Code experience"
+### Creative Showcase (`/showcase`)
+- **Google Ambassador Application**: Complete dedicated presentation
+- **Animated Elements**: Hero section, timeline, 3D projects
+- **Interactive Features**: Skill radar, live stats, ambassador highlights
+- **Navigation**: Easy return to main portfolio
+- **Full-Screen Experience**: Immersive presentation mode
 
-### Portfolio Data
-The portfolio data is stored in `data/portfolio.json` and includes:
-- Student information and contact details
-- Detailed project descriptions with tech stacks
-- Academic and professional achievements
-- Comprehensive skills categorization
-- Work experience and education background
+### Chat Interface (`/chat`)
+- **Coming Soon Page**: Beautiful animated placeholder
+- **Future AI Features**: Planned conversational interface
+- **Easy Navigation**: Back to portfolio button
 
-## 🛠️ Customization
-
-### Updating Portfolio Data
-Edit `data/portfolio.json` to customize:
-- Personal information
-- Project details and links
-- Skills and technologies
-- Achievements and experience
-- Contact information
-
-### Styling Customization
-- **Colors**: Modify `tailwind.config.js` for custom color schemes
-- **Components**: Update individual component styles in `components/`
-- **Animations**: Adjust Framer Motion animations in components
-- **Layout**: Modify responsive breakpoints and spacing
-
-### AI Behavior
-Customize AI responses by editing `lib/gemini.ts`:
-- Modify the prompt template
-- Adjust response length and style
-- Add custom instructions for specific queries
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically
-
-### Other Platforms
-- **Netlify**: Similar to Vercel, supports Next.js
-- **Railway**: Full-stack deployment platform
-- **AWS/GCP**: Use services like Amplify or Cloud Run
-
-### Environment Variables
-Make sure to set `NEXT_PUBLIC_GEMINI_API_KEY` in your deployment platform.
+### Admin Panel (`/admin`)
+- **Data Management**: Add/update achievements, projects, certificates
+- **GitHub Sync**: Fetch and update project data
+- **Profile Management**: Update personal information
 
 ## 🎨 Design Features
 
@@ -206,6 +169,7 @@ Make sure to set `NEXT_PUBLIC_GEMINI_API_KEY` in your deployment platform.
 - **Typing Indicators**: Realistic typing animation
 - **Hover Effects**: Interactive card transformations
 - **Scroll Animations**: Elements animate into view
+- **Smooth Scrolling**: Enhanced laptop experience
 
 ### Responsive Design
 - **Mobile First**: Optimized for mobile devices
@@ -223,6 +187,8 @@ Make sure to set `NEXT_PUBLIC_GEMINI_API_KEY` in your deployment platform.
 - **Framer Motion**: Animation library
 - **Google Generative AI**: Gemini API client
 - **Lucide React**: Icon library
+- **Zustand**: State management
+- **Recharts**: Data visualization
 
 ### Performance Optimizations
 - **Code Splitting**: Automatic route-based splitting
@@ -230,12 +196,65 @@ Make sure to set `NEXT_PUBLIC_GEMINI_API_KEY` in your deployment platform.
 - **Bundle Analysis**: Built-in bundle analyzer
 - **Lazy Loading**: Components load on demand
 - **Caching**: API responses cached appropriately
+- **SSR Compatibility**: Server-side rendering support
 
 ### Security
 - **Environment Variables**: Sensitive data in env files
 - **API Key Protection**: Client-side API key handling
 - **Input Sanitization**: User input properly sanitized
 - **HTTPS**: Secure connections in production
+
+## 📊 Portfolio Data
+
+### Student Information
+- **Name**: Nikitha N
+- **Title**: AI/ML Student | Full-Stack Developer
+- **University**: Amity University, B.Tech AI/ML
+- **Location**: Bengaluru, India
+- **Email**: nikitha.nrb@gmail.com
+- **GitHub**: https://github.com/nikiscode
+- **LinkedIn**: https://www.linkedin.com/in/nikitha-n-254a10347/
+
+### Projects (7)
+1. **Local LLM Integration** - Multi-model AI integration
+2. **eConsult-Sentiment** - Healthcare sentiment analysis
+3. **AI-Powered PDF Chatbot** - Document analysis system
+4. **Portfolio Website** - Modern responsive portfolio
+5. **Screening Bot** - Automated candidate evaluation
+6. **Student Voting System** - Academic project with FastAPI
+7. **GitHub Activity Tracker** - Repository monitoring tool
+
+### Achievements (6)
+1. **GDG Certification** - Google Developer Groups certified
+2. **AI-Powered PDF Chatbot** - LinkedIn featured project
+3. **Student Voting System** - Academic project showcase
+4. **eConsult-Sentiment Hackathon** - September 2025 certification
+5. **Open Source Contributions** - 12+ GitHub repositories
+6. **Academic Excellence** - University recognition
+
+### Skills (Focus Learner Levels)
+- **Programming Languages**: 45% (Python, JavaScript, HTML, CSS, R, C)
+- **Web Technologies**: 40% (React, FastAPI, Flask, TailwindCSS)
+- **AI/ML Tools**: 35% (PyTorch, Transformers, NLTK, spaCy)
+- **Databases**: 30% (MySQL, Data Analysis, Visualization)
+- **Cloud Platforms**: 25% (GitHub, Version Control, Local Deployment)
+- **Development Tools**: 40% (Git, Python Libraries, Automation)
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy automatically
+
+### Other Platforms
+- **Netlify**: Similar to Vercel, supports Next.js
+- **Railway**: Full-stack deployment platform
+- **AWS/GCP**: Use services like Amplify or Cloud Run
+
+### Environment Variables
+Make sure to set `NEXT_PUBLIC_GEMINI_API_KEY` in your deployment platform.
 
 ## 🤝 Contributing
 
@@ -256,6 +275,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **TailwindCSS**: For the utility-first CSS framework
 - **Framer Motion**: For smooth animations
 - **Lucide**: For beautiful icons
+- **Amity University**: For academic support and opportunities
 
 ## 📞 Support
 
@@ -268,4 +288,5 @@ If you have any questions or need help:
 ---
 
 **Built with ❤️ for Google Student Ambassador applications**
-"# portfolio" 
+
+**Contact**: nikitha.nrb@gmail.com | **GitHub**: https://github.com/nikiscode
