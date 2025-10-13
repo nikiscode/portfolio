@@ -1,0 +1,348 @@
+{
+  "student": {
+    "name": "Nikitha N",
+    "title": "AI/ML Student | Full-Stack Developer",
+    "university": "Amity University",
+    "year": "Junior",
+    "major": "AI/ML",
+    "location": "Bengaluru, India",
+    "email": "nikitha.nrb@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nikitha-n-254a10347/",
+    "github": "https://github.com/nikiscode",
+    "twitter": "https://twitter.com/nikiscode"
+  },
+  "about": {
+    "summary": "Passionate AI/ML student with a focus on artificial intelligence, machine learning, and full-stack development. Currently pursuing a Bachelor's in AI/ML at Amity University with a strong interest in machine learning, natural language processing, and building scalable web applications. Active open-source contributor with expertise in cutting-edge AI technologies.",
+    "interests": [
+      "Artificial Intelligence & Machine Learning",
+      "Natural Language Processing",
+      "Full-Stack Web Development",
+      "Open Source Contributions",
+      "Data Science & Analytics",
+      "Software Engineering"
+    ],
+    "goals": [
+      "Graduate with honors in AI/ML",
+      "Contribute to impactful open-source projects",
+      "Build innovative AI-powered applications",
+      "Mentor fellow students in tech",
+      "Secure internships at top tech companies",
+      "Develop expertise in cutting-edge AI technologies"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Local LLM Integration",
+      "description": "A comprehensive project integrating multiple large language models including Llama3, Phi3, and Mistral for local deployment and experimentation. Features model comparison, performance benchmarking, and API integration capabilities.",
+      "techStack": ["Python", "LLaMA3", "Phi3", "Mistral", "Transformers", "PyTorch"],
+      "features": [
+        "Multiple LLM model support",
+        "Local model deployment",
+        "Performance benchmarking",
+        "API integration",
+        "Model comparison tools"
+      ],
+      "links": {
+        "github": "https://github.com/nikiscode/local-llm"
+      },
+      "status": "Active Development",
+      "impact": "Enables local AI model experimentation and development"
+    },
+    {
+      "id": 2,
+      "title": "Codefolio - Portfolio Website",
+      "description": "A modern, responsive portfolio website showcasing projects and skills. Built with clean design principles and optimized for performance across all devices.",
+      "techStack": ["JavaScript", "HTML", "CSS", "C"],
+      "features": [
+        "Responsive design",
+        "Project showcase",
+        "Skills visualization",
+        "Contact integration",
+        "Performance optimized"
+      ],
+      "links": {
+        "github": "https://github.com/nikiscode/Codefolio"
+      },
+      "status": "Published",
+      "impact": "Professional portfolio showcasing development skills"
+    },
+    {
+      "id": 3,
+      "title": "PDF Chatbot",
+      "description": "An intelligent chatbot system that can process and answer questions about PDF documents. Uses natural language processing to extract information and provide contextual responses.",
+      "techStack": ["Python", "NLP", "PDF Processing", "Machine Learning"],
+      "features": [
+        "PDF document processing",
+        "Natural language understanding",
+        "Contextual question answering",
+        "Document search capabilities",
+        "Interactive chat interface"
+      ],
+      "links": {
+        "github": "https://github.com/nikiscode/pdf-chatbot"
+      },
+      "status": "Active Development",
+      "impact": "Automates document analysis and information extraction"
+    },
+    {
+      "id": 4,
+      "title": "Screening Bot",
+      "description": "An automated screening system designed to streamline candidate evaluation processes. Uses AI to analyze responses and provide preliminary screening results.",
+      "techStack": ["Python", "AI/ML", "Automation"],
+      "features": [
+        "Automated candidate screening",
+        "Response analysis",
+        "Scoring algorithms",
+        "Report generation",
+        "Integration capabilities"
+      ],
+      "links": {
+        "github": "https://github.com/nikiscode/Screening-BOT"
+      },
+      "status": "Published",
+      "impact": "Streamlines recruitment processes and improves efficiency"
+    },
+    {
+      "id": 5,
+      "title": "eConsult Sentiment Analysis",
+      "description": "A sentiment analysis system for eConsultation platforms. Analyzes patient feedback and consultation data to provide insights into service quality and patient satisfaction.",
+      "techStack": ["Python", "Sentiment Analysis", "NLP", "Data Science"],
+      "features": [
+        "Sentiment analysis of consultations",
+        "Patient feedback processing",
+        "Quality metrics generation",
+        "Data visualization",
+        "Insights dashboard"
+      ],
+      "links": {
+        "github": "https://github.com/nikiscode/eConsult-Sentiment"
+      },
+      "status": "Active Development",
+      "impact": "Improves healthcare service quality through data analysis"
+    },
+    {
+      "id": 6,
+      "title": "Student Voting System",
+      "description": "A comprehensive academic project built as part of coursework at Amity University. Features a full-fledged online election platform with real-world capabilities including login, role-based access, candidate nominations, one-person-one-vote logic, and result control.",
+      "techStack": ["FastAPI", "MySQL", "Tailwind CSS", "Python", "Session-based Auth"],
+      "features": [
+        "Student/admin login system",
+        "Role-based access control",
+        "Candidate nomination with file uploads",
+        "Admin approval workflow",
+        "One-person-one-vote logic",
+        "Admin-controlled result display",
+        "Responsive UI with Tailwind CSS"
+      ],
+      "links": {
+        "github": "https://github.com/nikiscode/student-voting-system"
+      },
+      "status": "Completed",
+      "impact": "Academic project demonstrating full-stack development skills with real-world features"
+    },
+    {
+      "id": 7,
+      "title": "eConsult-Sentiment AI Platform",
+      "description": "A comprehensive AI-powered sentiment analysis platform designed for eConsultation modules. Features advanced sentiment analysis using RoBERTa models, text summarization with BART transformers, word cloud visualization, and comprehensive analytics dashboard for government consultation analysis.",
+      "techStack": ["Python", "Streamlit", "RoBERTa", "BART", "Hugging Face", "Plotly", "Pandas", "NLTK", "spaCy"],
+      "features": [
+        "Advanced sentiment analysis with RoBERTa models",
+        "Text summarization using BART transformers",
+        "Word cloud visualization and keyword extraction",
+        "CSV/Excel file upload and batch processing",
+        "GPU acceleration support for faster processing",
+        "Comprehensive analytics dashboard",
+        "Multi-format export capabilities (CSV, reports, images)",
+        "Real-time confidence distribution analysis"
+      ],
+      "links": {
+        "github": "https://github.com/nikiscode/eConsult-Sentiment"
+      },
+      "status": "Completed",
+      "impact": "Hackathon project with 42 commits, supporting government consultation analysis with advanced AI capabilities"
+    }
+  ],
+  "google_ambassador_highlights": {
+    "certifications": [
+      {
+        "name": "Google Developer Groups (GDG) - Building Intelligent Assistants",
+        "date": "2024",
+        "description": "Certified in Building Intelligent Assistants & Extending AI Capabilities",
+        "project": "AI-powered PDF Chatbot with Llama 3.1",
+        "impact": "Applied certification knowledge to build production-ready AI solutions"
+      }
+    ],
+    "leadership_experience": [
+      {
+        "role": "University Project Leader",
+        "description": "Led development of university-specific applications including Amity Elections app",
+        "impact": "Improved student engagement through innovative technology solutions",
+        "skills": ["Project Management", "Team Leadership", "Student Mentoring"]
+      },
+      {
+        "role": "Open Source Community Contributor",
+        "description": "Active contributor with 12+ repositories showcasing diverse technical skills",
+        "impact": "Maintained active open-source presence with collaborative development",
+        "skills": ["Community Building", "Technical Mentoring", "Knowledge Sharing"]
+      }
+    ],
+    "innovation_showcase": [
+      {
+        "project": "eConsult-Sentiment AI Platform",
+        "innovation": "Government consultation analysis using advanced AI",
+        "technologies": ["RoBERTa", "BART", "Streamlit", "Hugging Face"],
+        "impact": "42 commits, hackathon winner with certification"
+      },
+      {
+        "project": "Local LLM Integration",
+        "innovation": "Multi-model AI deployment (Llama3, Phi3, Mistral)",
+        "technologies": ["Python", "Transformers", "PyTorch", "Ollama"],
+        "impact": "Enables local AI experimentation and development"
+      },
+      {
+        "project": "PDF Chatbot",
+        "innovation": "Document analysis with intelligent Q&A",
+        "technologies": ["Llama 3.1", "Streamlit", "Flask", "PyPDF2"],
+        "impact": "100% local deployment, private and powerful"
+      }
+    ],
+    "community_impact": [
+      {
+        "initiative": "Student Voting System",
+        "description": "Built comprehensive election platform for university",
+        "beneficiaries": "Amity University students",
+        "impact": "Modernized student election processes"
+      },
+      {
+        "initiative": "AI/ML Education",
+        "description": "Developed multiple educational AI projects",
+        "beneficiaries": "Fellow students and developers",
+        "impact": "Democratized access to AI/ML technologies"
+      }
+    ],
+    "ambassador_vision": {
+      "mission": "Empower students to leverage AI for social impact and innovation",
+      "goals": [
+        "Organize AI/ML workshops and hackathons",
+        "Mentor students in cutting-edge technologies", 
+        "Build bridges between academia and industry",
+        "Promote diversity and inclusion in tech"
+      ],
+      "why_google": "Google's commitment to democratizing AI aligns perfectly with my mission to make technology accessible to all students",
+      "unique_value": "Combination of technical expertise, community leadership, and passion for student empowerment"
+    }
+  },
+  "achievements": [
+    {
+      "title": "eConsult-Sentiment AI Platform - Hackathon Project",
+      "description": "Developed a comprehensive AI-powered sentiment analysis platform for eConsultation modules during a hackathon. Features advanced sentiment analysis using RoBERTa models, text summarization with BART, word cloud visualization, and comprehensive analytics dashboard.",
+      "date": "September 2025",
+      "type": "Hackathon",
+      "impact": "Built a complete AI platform with 42 commits, supporting CSV/Excel uploads, batch processing, GPU acceleration, and multi-format exports for government consultation analysis",
+      "links": {
+        "github": "https://github.com/nikiscode/eConsult-Sentiment"
+      }
+    },
+    {
+      "title": "AI-Powered PDF Chatbot Project",
+      "description": "Developed a sophisticated PDF Chatbot that allows users to upload PDFs and ask intelligent questions about their content. Features Llama 3.1 running locally with Ollama, Streamlit frontend, and Flask backend for a smooth, interactive experience.",
+      "date": "2024",
+      "type": "Technical Project",
+      "impact": "Created a private, lightweight, and powerful AI solution that runs 100% locally using Python, Flask, Streamlit, Ollama, Llama 3.1, and PyPDF2",
+      "links": {
+        "linkedin": "https://www.linkedin.com/posts/nikitha-n-254a10347_googledevelopers-gdg-ai-activity-7357100066773286912-zVb1"
+      }
+    },
+    {
+      "title": "Student Voting System - Academic Project",
+      "description": "Built a comprehensive Student Voting System as part of coursework at Amity University. Implemented a full-fledged online election platform with real-world features including login, role-based access, candidate nominations, one-person-one-vote logic, and result control.",
+      "date": "2024",
+      "type": "Academic Project",
+      "impact": "Developed complete voting system with FastAPI, MySQL, and Tailwind CSS featuring session-based auth, role management, file uploads, and responsive UI",
+      "links": {
+        "linkedin": "https://www.linkedin.com/posts/nikitha-n-254a10347_academicproject-fastapi-python-activity-7353771234590965761-dVTH"
+      }
+    },
+    {
+      "title": "AI/ML Project Developer",
+      "description": "Developed multiple AI/ML projects including Local LLM integration with LLaMA3, Phi3, and Mistral models, demonstrating expertise in large language model deployment and experimentation.",
+      "date": "2024 - Present",
+      "type": "Technical",
+      "impact": "Successfully integrated multiple LLM models for local deployment and experimentation"
+    },
+    {
+      "title": "Full-Stack Web Developer",
+      "description": "Created comprehensive web applications including Codefolio portfolio website, election management systems, and interactive web interfaces using modern web technologies.",
+      "date": "2023 - Present",
+      "type": "Development",
+      "impact": "Built multiple production-ready web applications with responsive design"
+    },
+    {
+      "title": "Open Source Contributor",
+      "description": "Active contributor to open-source projects with 12+ repositories on GitHub, showcasing diverse technical skills and commitment to collaborative development.",
+      "date": "2023 - Present",
+      "type": "Community",
+      "impact": "Maintained active open-source presence with diverse project portfolio"
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      "Python", "JavaScript", "HTML", "CSS", "R", "C"
+    ],
+    "webTechnologies": [
+      "HTML", "CSS", "JavaScript", "Web Development", "Responsive Design", "Tailwind CSS", "Streamlit", "Flask", "FastAPI", "Plotly"
+    ],
+    "databases": [
+      "Data Analysis", "Statistical Analysis", "Data Visualization", "MySQL"
+    ],
+    "cloudPlatforms": [
+      "GitHub", "Version Control", "Open Source Development", "Local Deployment"
+    ],
+    "aiMl": [
+      "Machine Learning", "Natural Language Processing", "Sentiment Analysis", "LLaMA3", "Phi3", "Mistral", "Transformers", "PyTorch", "Ollama", "Llama 3.1", "PyPDF2", "RoBERTa", "BART", "Hugging Face", "NLTK", "spaCy"
+    ],
+    "tools": [
+      "Git", "GitHub", "Python Libraries", "R Programming", "Data Science Tools", "Automation", "ChatGPT", "Google Developer Groups"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Project Developer",
+      "company": "Independent Projects",
+      "duration": "2024 - Present",
+      "description": "Developing advanced AI/ML projects including Local LLM integration, sentiment analysis systems, and intelligent automation solutions. Focus on practical applications of machine learning and natural language processing.",
+      "technologies": ["Python", "LLaMA3", "Phi3", "Mistral", "PyTorch", "NLP", "Machine Learning"]
+    },
+    {
+      "title": "Full-Stack Web Developer",
+      "company": "Freelance & University Projects",
+      "duration": "2023 - Present",
+      "description": "Creating comprehensive web applications including portfolio websites, election management systems, and interactive web interfaces. Specializing in responsive design and user experience optimization.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Web Development", "Responsive Design"]
+    },
+    {
+      "title": "Data Science & Analytics Researcher",
+      "company": "Academic Projects",
+      "duration": "2023 - Present",
+      "description": "Conducting data analysis projects including sentiment analysis for healthcare applications, PDF document processing, and statistical analysis using R programming. Focus on extracting meaningful insights from complex datasets.",
+      "technologies": ["Python", "R", "Data Analysis", "Statistical Analysis", "Sentiment Analysis"]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Technology in AI/ML",
+    "university": "Amity University",
+    "expectedGraduation": "2025",
+    "gpa": "3.8/4.0",
+    "relevantCoursework": [
+      "Machine Learning Fundamentals",
+      "Data Structures and Algorithms",
+      "Database Management Systems",
+      "Web Development",
+      "Statistical Analysis",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Software Engineering"
+    ]
+  }
+}
