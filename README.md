@@ -1,4 +1,4 @@
-# AI-Powered Portfolio Website
+ # AI-Powered Portfolio Website
 
 A comprehensive, interactive portfolio website featuring AI chat capabilities, creative showcase, and dynamic GitHub integration. Built for Google Student Ambassador applications with a focus on authentic learning journey representation.
 
