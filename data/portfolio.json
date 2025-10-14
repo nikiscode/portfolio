@@ -333,7 +333,7 @@
     "degree": "Bachelor of Technology in AI/ML",
     "university": "Amity University",
     "expectedGraduation": "2025",
-    "gpa": "3.8/4.0",
+    "gpa": "9.1/10",
     "relevantCoursework": [
       "Machine Learning Fundamentals",
       "Data Structures and Algorithms",
@@ -344,5 +344,5 @@
       "Computer Vision",
       "Software Engineering"
     ]
-  }
+  }"
 }
