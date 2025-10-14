@@ -67,7 +67,6 @@ export default function Home() {
             <Sparkles className="w-6 h-6" />
             <div>
               <h3 className="text-lg font-bold">🌟 Creative Google Ambassador Showcase</h3>
-              <p className="text-sm opacity-90">Immersive presentation designed to impress the core team</p>
             </div>
           </div>
           <div className="flex ">
