@@ -1,4 +1,4 @@
-# 🚀 Enhanced AI Portfolio Demo Guide
+ ## 🚀 Enhanced AI Portfolio Demo Guide
 
 Welcome to the **next-generation AI portfolio experience**! This guide will help you explore all the amazing new features that make this portfolio feel like a personal Gemini AI assistant.
 
