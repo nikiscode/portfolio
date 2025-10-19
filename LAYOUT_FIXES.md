@@ -1,4 +1,4 @@
-# 🔧 Layout Fixes Applied
+## 🔧 Layout Fixes Applied
 
 ## Issues Fixed
 
