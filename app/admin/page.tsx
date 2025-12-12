@@ -1,4 +1,4 @@
-  'use client';
+v  'use client';
 
 import React, { useState, useEffect } from 'react';
 import { AdminPanel } from '@/components/AdminPanel';
